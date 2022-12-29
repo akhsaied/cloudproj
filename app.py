@@ -18,7 +18,7 @@ app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 app_dir = os.path.dirname(os.path.abspath(__file__))
 app.config['UPLOAD_FOLDER'] = os.path.join(app_dir, 'static/uploads')
 
-db = mysql.connector.connect(user='admin', password='cloud123456**', database='awss')
+database-4 = mysql.connector.connect(user='admin', password='cloud123456**', database='awss')
 cache = ImageCache()
 
 @app.route("/")
